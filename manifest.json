@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "yawn",
+    "version": "0.0.1",
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["index.js"]
+    }],
+    "icons": { "32": "icon32.png", "128": "icon128.png" }
+}
